@@ -97,7 +97,7 @@ the project and its purpose.
 **_2.1 User/Market Demographics_**
 
 Nurses in the neonatal intensive care unit at OU Children's Hospital currently have to 
-assign nurses to patients by hand, using a paper spreadsheet. The roster is printed ou from 
+assign nurses to patients by hand, using a paper spreadsheet. The roster is printed out from a
 facility scheduler for the staff assigned each day for the night shift and the following day
 shift.  Nurses are writeen into assignments by hand as well as phone number assigned to the nurse.
 The key demographic for our software would be these nurses, as well as those who are in charge of
@@ -113,20 +113,21 @@ that utilizes the other nurses' time efficiently. The nurses' jobs of assigning 
 be made easier by the software that suggests the best nurses for each of the rooms/patients.  The
 user should be able to succeed in creating the best schedule.  A problem that might interfere with 
 success would be if the software fails to update or is inaccessable by other nurses. Another primary
-user would be the IT specialist that are in charge of keeping the program running smoothly.  Since 
-the software will have to be able HIPAA compliant, it must be hosted by their secure systems.
+user would be the IT specialists that are in charge of keeping the program running smoothly.  Since 
+the software will have to be HIPAA compliant, it must be hosted by their secure systems and be maintained
+by OU Hospital employees.
 
 
 **_2.3 User Environment_**
 
-The environment will have multiple nurses accessing the room assignments with the ability
+The environment will have multiple nurses accessing the room assignment information with the ability
 to update assignemnts themselves.  Whether there are specific nurses that have priveleges to 
 update this information or if all will have access is currently undetermined.  The task cycle should
-be able to be completed in between the windows of the nurses' shifts.  The software must be HIPAA
+be able to be completed during the windows in between shifts.  The software must be HIPAA
 compliant and in a controlled environment to prevent security compromises.  It may be later ported
 to iOS to allow nurses to use the software on iPads, but the current development will be a .NET 
 application.  The software must be able to interact with the current systems that the hospital uses
-to access patient information, as it relies on it to suggest the correct nurses.
+to access patient information, as it relies on it to suggest the correct nurses for each assignment.
 
 **_2.4 Key User Needs_**
 
@@ -134,17 +135,19 @@ The main issue with the current system is that it requires the nurses to manuall
 the best nurse for each assignment.  This can be difficult as there are many aspects to consider
 when deciding this.  The system is also currently being conducted on paper, and doesn't allow for quick,
 clean updates that is readily accessible by everybody who might need the infromation.  The users envision
-a program that will create lists of nurses that can be assigned to specific rooms, and will be able to suggest
+a program that will create lists of nurses that can be assigned to specific rooms, and one that will also be able to suggest
 which ones would be most efficient.
 
 
 **_2.5 Alternatives and Competition_**
 
-There are currently different applications that look to optimize nurse shift scheduling. Some of
+There are currently other applications that look to optimize nurse shift scheduling. Some of
 these include Smartlinx, Intrigma, and other companies.  These competitors have established
 software applications that are able to assign nurses to patients in an efficient manner.  The main
 weakness of these applications is the pricing, as our product would be completely free.  There is 
 also flexibility to our application, as we will be tailoring it to the needs of the NICU nurses.
+Companies that uses their software also have to rely on the company to keep the product updated and running,
+whereas our product would be maintained by OU hospital employees.
 
 ## 3 Stakeholders
 
