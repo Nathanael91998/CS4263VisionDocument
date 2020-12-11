@@ -70,113 +70,85 @@ ptg
 
 ## 1 Introduction
 
-This section provides an overview of the Vision document.
 
 **_1.1 Purpose_**
 
-This document defines the strategic intent of the program. It defines high-level user
-needs, any applicable user personas, key stakeholders, and the general system capabilities
-needed by the users.
+The purpose of this document is to outline the goal of the project, identify key users and 
+stakeholders, and list the necessary requirements for the product. 
+
 
 **_1.2 Solution Overview_**
 
-State the general purpose of the product, system, application or service, and any version
-identification.
-
-- Identify the product or application to be created or enhanced.
-- Describe the application of the product, including its benefits, goals, and
-    objectives.
-- Provide a general description of what the solution will and, where appropriate,
-    will not do.
-       Page 2 of 8
+This software looks to assist charge nurses with assigning oncoming scheduled nurses
+to NICU infants at the beginning of each shift based on a matching algorithm for nursing and
+patient characteristics. The system should be able to show updated data and assignments for all users 
+when changes are made to the assignments.  The software will suggest available nurses for each room based
+off of their capabilities, the patients characteristics, and availabilty.  
 
 
-```
-ptg
-```
 **_1.3 References_**
 
-List other documents referenced, and specify the sources from which the references can
-be obtained. If a business case (Chapter 23) was developed to drive the program, refer to
-it or attach it.
+Information for this vision document was obtained through emails with our contacts at the hospital in addition to 
+an online meeting with them.  There was also an initial document sent by the contacts at the hospital outlining
+the project and its purpose.
 
 ## 2 User Description
 
-To provide products and services that meet users’ needs, it is helpful to understand the
-challenges they confront when performing their jobs. This section should profile the
-intended users of the application and the key problems that limit the user’s productivity.
-This section should not be used to state specific requirements; just provide the back-
-ground for why the features specified in Section 5 are needed.
-
 **_2.1 User/Market Demographics_**
 
-Summarize the key market demographics that motivate your solution decisions. Describe
-target-market segments. Estimate the market’s size and growth by the number of poten-
-tial users or the amount of money your customers spend, trying to meet needs that your
-product/enhancement would fulfill. Review major industry trends and technologies.
-Refer to a market analysis, where available.
+Nurses in the neonatal intensive care unit at OU Children's Hospital currently have to 
+assign nurses to patients by hand, using a paper spreadsheet. The roster is printed out from a
+facility scheduler for the staff assigned each day for the night shift and the following day
+shift.  Nurses are writeen into assignments by hand as well as phone number assigned to the nurse.
+The key demographic for our software would be these nurses, as well as those who are in charge of
+creating the spreadsheet.  This program could also potentially be used by other hospitals with 
+a similar lack of automated assignment software.
 
 **_2.2 User Personas_**
 
-Describe the primary and secondary user personas (see Chapter 7). A thorough analysis
-might cover the following topics for each persona:
+The first primary user would be the nurses that use the software to assign the upcoming nurses
+to different patients.  The nurses would have a medical background and should have basic technical
+capabilites to navigate the software.  The responsibilities of the nurses are to create an schedule 
+that utilizes the other nurses' time efficiently. The nurses' jobs of assigning incoming nurses should
+be made easier by the software that suggests the best nurses for each of the rooms/patients.  The
+user should be able to succeed in creating the best schedule.  A problem that might interfere with 
+success would be if the software fails to update or is inaccessable by other nurses. Another primary
+user would be the IT specialists that are in charge of keeping the program running smoothly.  Since 
+the software will have to be HIPAA compliant, it must be hosted by their secure systems and be maintained
+by OU Hospital employees.
 
-- Te c h n i c a l b a c k g r o u n d a n d d e g r e e o f s o p h i s t i c a t i o n
-- Key responsibilities
-- Deliverables the user produces and for whom
-- Tr e n d s t h a t m a k e t h e u s e r ’s j o b e a s i e r o r m o r e d i f fi c u l t
-- The user’s definition of success and how the user is rewarded
-- Problems that interfere with success
 
-```
-Page 3 of 8
-```
-
-```
-ptg
-```
 **_2.3 User Environment_**
 
-Describe the working environment of the target user. Here are some suggestions.
-
-- How many people are involved in completing the task? Is this changing?
-- How long is a task cycle? How much time is spent in each activity? Is this changing?
-- Are there any unique environmental constraints: controlled environment,
-    mobile, outdoors, and so on?
-- Which system platforms are in use today? Future platforms?
-- What other applications are in use? Does your application need to integrate
-    with them?
+The environment will have multiple nurses accessing the room assignment information with the ability
+to update assignemnts themselves.  Whether there are specific nurses that have priveleges to 
+update this information or if all will have access is currently undetermined.  The task cycle should
+be able to be completed during the windows in between shifts.  The software must be HIPAA
+compliant and in a controlled environment to prevent security compromises.  It may be later ported
+to iOS to allow nurses to use the software on iPads, but the current development will be a .NET 
+application.  The software must be able to interact with the current systems that the hospital uses
+to access patient information, as it relies on it to suggest the correct nurses for each assignment.
 
 **_2.4 Key User Needs_**
 
-List the key problems or needs as perceived by the user. Clarify the following issues for
-each problem.
+The main issue with the current system is that it requires the nurses to manually find and choose
+the best nurse for each assignment.  This can be difficult as there are many aspects to consider
+when deciding this.  The system is also currently being conducted on paper, and doesn't allow for quick,
+clean updates that is readily accessible by everybody who might need the infromation.  The users envision
+a program that will create lists of nurses that can be assigned to specific rooms, and one that will also be able to suggest
+which ones would be most efficient.
 
-- What are the reasons for this problem?
-- How is it solved now?
-- What solutions does the user envision?
-
-Ranking and cumulative-voting techniques for these needs indicate problems that _must_
-be solved versus issues the user would _like_ to be solved.
 
 **_2.5 Alternatives and Competition_**
 
-Identify any alternatives available to the user. These can include buying a competitor’s
-product, building a homegrown solution, or simply maintaining the status quo. List any
-known competitive choices that exist. Include the major strengths and weaknesses of each
-competitor as perceived by the end user.
+There are currently other applications that look to optimize nurse shift scheduling. Some of
+these include Smartlinx, Intrigma, and other companies.  These competitors have established
+software applications that are able to assign nurses to patients in an efficient manner.  The main
+weakness of these applications is the pricing, as our product would be completely free.  There is 
+also flexibility to our application, as we will be tailoring it to the needs of the NICU nurses.
+Companies that uses their software also have to rely on the company to keep the product updated and running,
+whereas our product would be maintained by OU hospital employees.
 
-_2.5.1 Competitor 1_
-
-_2.5.2 Competitor 2_
-
-```
-Page 4 of 8
-```
-
-```
-ptg
-```
 ## 3 Stakeholders
 
 Identify the program stakeholders, their needs, and their degree of involvement with the
