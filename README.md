@@ -276,8 +276,7 @@ Most likely this will not be necessary for us. At most we will need permission t
 
 ## 9 Glossary
 
-The glossary defines terms that are unique to the program. Include any acronyms or
-abbreviations that need to be understood by users or other readers.
+Not applicable right now. Possible applicable later in a very concise format. Time will tell.
 
 ```
 Page 8 of 8
