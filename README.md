@@ -171,33 +171,21 @@ Stakeholder 2
 ```
 ## 4 Product Overview
 
-This section provides a high-level view of the solution capabilities, interfaces to other
-applications, and systems configurations. This section usually consists of five subsections,
-as follows.
-
 **_4.1 Product Perspective_**
 
-This subsection should put the product in perspective to other related products and the
-user’s environment. If the product is independent and totally self-contained, state so. If
-the product is a component of a larger system, this subsection should relate how these
-systems interact and should identify the relevant interfaces among the systems. One easy
-way to display the major components of the larger system, interconnections, and external
-interfaces is via a system context block diagram.
+Our product will be designed for use in a NICU ward within a hospital. As such, it will need
+to interact with the systems the hospital already has in place. Much of the data is stored in
+Excel files, so our program will need to be able to read and write to that or a similar file
+format. It should also integrate into the established rhythms and physical systems present in
+the hospital. 
 
 **_4.2 Product Position Statement_**
 
-Provide an overall statement summarizing, at the highest level, the unique position the
-product intends to fill in the marketplace. Moore [1991] calls this the product position
-statement and recommends the following format.
+Our product is for hospitals and NICU wards who want to efficiently delegate tasks to nurses. 
+Our product is a desktop application that performs the tedious bookkeeping tasks which sap time 
+away from qualified nurses. Unlike manual assignment methods, our product creates assignments quickly
+with little effort required from the user. 
 
-```
-For (target customer)
-Who (statement of the need or opportunity)
-The (product name) is a (product category)
-That (statement of key benefit, that is, compelling rea son to buy)
-Unlike (primary competitive alternative)
-Our product (statement of primary differentiation)
-```
 ```
 Page 5 of 8
 ```
@@ -205,42 +193,28 @@ Page 5 of 8
 ```
 ptg
 ```
-A product position statement communicates the intent of the application and the impor-
-tance of the program to all stakeholders.
 
 **_4.3 Summary of Capabilities_**
 
-Summarize the major benefits and features the product will provide. Organize the fea-
-tures so that the list is understandable to any stakeholder. A simple table listing the key
-benefits and their supporting features, as shown below, might suffice.
+|Features|Benefit|
+|--------|-------|
+|Automatic nurse assignment|More time for nurses to do nurse work|
+|Automatic assignment logging|Less hassle to digitize log data|
+|Automated communication|Faster notifications, more efficient than manual|
+|Organized data entry|Easier for a trainee to learn to use|
 
-```
-Solution Features Customer Benefit
-Feature 1 Benefit 1
-Feature 2 Benefit 2
-```
 **_4.4 Assumptions and Dependencies_**
 
-List any assumptions that, if changed, will alter the vision for the product.
+We assume we will have dummy data to work with and good communication with the hospital staff.
+If the staff provides new information or changes the specifications, our product will need to 
+adapt accordingly. We also depend on them having a reliable computer to run our product on.
+
 
 **_4.5 Cost and Pricing_**
 
-Describe any relevant cost and pricing constraints, because these can directly impact the
-solution definition and implementation.
-
-## 5 Product Features
-
-This section describes the intended product features. Features provide the system capa-
-bilities that are necessary to deliver benefits to the users. Feature descriptions should be
-short and pithy, a key phrase, perhaps followed by one or two sentences of explanation.
-
-Use a level of abstraction high enough to be able to describe the system with a maximum
-of 25 to 50 features. Each feature should be perceivable by users, operators, or other exter-
-nal systems.
-
-**_5.1 Feature 1_**
-
-**_5.2 Feature 2_**
+This product requires no licenses, server time, or other elements that could add to the cost,
+so it will likely be free to produce. Should we choose to market it, we will judge how well it
+turned out and price it accordingly.
 
 ```
 Page 6 of 8
