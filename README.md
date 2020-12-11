@@ -70,35 +70,27 @@ ptg
 
 ## 1 Introduction
 
-This section provides an overview of the Vision document.
 
 **_1.1 Purpose_**
 
-This document defines the strategic intent of the program. It defines high-level user
-needs, any applicable user personas, key stakeholders, and the general system capabilities
-needed by the users.
+The purpose of this document is to outline the goal of the project, identify key users and 
+stakeholders, and list the necessary requirements for the product. 
+
 
 **_1.2 Solution Overview_**
 
-State the general purpose of the product, system, application or service, and any version
-identification.
-
-- Identify the product or application to be created or enhanced.
-- Describe the application of the product, including its benefits, goals, and
-    objectives.
-- Provide a general description of what the solution will and, where appropriate,
-    will not do.
-       Page 2 of 8
+The purpose of this program is to assist charge nurses with assigning oncoming scheduled nurses
+to NICU infants at the beginning of each shift based on a matching algorithm for nursing and
+patient characteristics. The system should be able to show updated data and assignments for all users 
+when changes are made to the assignments.  The software will suggest available nurses for each room based
+off of their capabilities, the patients characteristics, and availabilty.  
 
 
-```
-ptg
-```
 **_1.3 References_**
 
-List other documents referenced, and specify the sources from which the references can
-be obtained. If a business case (Chapter 23) was developed to drive the program, refer to
-it or attach it.
+Information for this vision document was obtained through emails with our contacts at the hospital in addition to 
+an online meeting with them.  There was also an initial document sent by the contacts at the hospital outlining
+the project and its purpose.
 
 ## 2 User Description
 
