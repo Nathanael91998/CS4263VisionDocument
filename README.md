@@ -4,7 +4,7 @@ ptg
 # Vision Document template
 
 ```
-Company Name
+OU Capstone Group 30
 ```
 ```
 Vision Document for NICU Application
@@ -99,7 +99,7 @@ the project and its purpose.
 Nurses in the neonatal intensive care unit at OU Children's Hospital currently have to 
 assign nurses to patients by hand, using a paper spreadsheet. The roster is printed out from a
 facility scheduler for the staff assigned each day for the night shift and the following day
-shift.  Nurses are writeen into assignments by hand as well as phone number assigned to the nurse.
+shift.  Nurses are written into assignments by hand as well as phone number assigned to the nurse.
 The key demographic for our software would be these nurses, as well as those who are in charge of
 creating the spreadsheet.  This program could also potentially be used by other hospitals with 
 a similar lack of automated assignment software.
@@ -231,35 +231,31 @@ the system is intended to be used.
 
 ## 7 Nonfunctional Requirements
 
-This section records other system requirements including nonfunctional requirements
-(constraints) imposed on the system (see Chapter 17).
-
 **_7.1 Usability_**
+
+Our clients at the hospital expressed that charge nurses might be averse to using new technologies, so the scheduling application needs to be intuitive and easy to use. It should be demonstrably easier to use the application than to use the current paper scheduling techniques. Users should be able to access the application within the hospital network through a .NET web application on a desktop or on nurses' iPads. This means that the application must be usable as both a desktop and a tablet application.
 
 **_7.2 Reliability_**
 
+Since the application will be used for scheduling nurses to care for infants in medical distress, it needs to available and accurate nearly always. Scheduled downtime may be acceptable, but charge nurses would have to revert to using the paper scheduling format in these cases. Due to the critical nature of the application, it must be accurate when assigning infants to appropriately certified nurses. Though the application will have some functionality tied to internet connection, it should still be usable during outages with a little more user input.
+
 **_7.3 Performance_**
 
+The application will mostly be used hours in advanced, so performance is not a primary concern. Once a schedule is set, the application will be primarily used statically as a display. Performance will mostly be a concern to the extent that it is quicker to use the application than to schedule by hand. This should be easy to achieve with features that optimize matching nurse location and certification.
+
 **_7.4 Supportability_**
+
+The OU Health software support department will need to be familiar with this product and be able to provide support when necessary. As such, we will need to give them a thorough overview of the application and provide exhaustive documentation.
 
 **_7.5 Other Requirements_**
 
 _7.5.1Applicable Standards_
 
-List all standards the product must comply with, such as legal and regulatory, communi-
-cations standards, platform compliance standards, and quality and safety standards.
+The application must be HIPAA compliant since it will store patient data.
 
 _7.5.2 System Requirements_
 
-Define any system requirements necessary to support the application. These may include
-the host operating systems and network platforms, configurations, communication,
-peripherals, and companion software.
-
-_7.5.3 Licensing, Security, and Installation_
-
-Licensing, security, and installation issues can also directly impact the development
-effort. Installation requirements may affect coding or create the need for separate instal-
-lation software.
+The application must be able to integrate into OU Health's current system infrastructure. From what we have seen, this would be achievable by creating a .NET application. The application must run on Windows (for desktop use) and iOS (for tablet use).
 
 ```
 Page 7 of 8
