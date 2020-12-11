@@ -154,10 +154,10 @@ whereas our product would be maintained by OU hospital employees.
 Identify the program stakeholders, their needs, and their degree of involvement with the
 system. A table such as the following can be effective:
 
-| Syntax      | Description | ----------- | ----------- |
-| ----------- | ----------- | ----------- | ----------- |
-| Header      | Title       | Header      | Title       |
-| Paragraph   | Text        | Paragraph   | Text        |
+| Project Stakeholder | Degree of Involvement | Product Needs | Program Needs |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 ## 4 Product Overview
 
