@@ -152,6 +152,7 @@ whereas our product would be maintained by OU hospital employees.
 ## 3 Stakeholders
 
 | Project Stakeholder | Degree of Involvement | Product Needs | Program Needs |
+| ------------------- | --------------------- | ------------- | ------------- |
 | Children's Hospital (as an entity) | Govern's operations every day. | Need product to perform efficiently and reliably. | Need program to be easily teachable and usable for all parties concerned. |
 | Us (creators of the product) | Those who will be building the product for the hospital. | Need product to take reasonable development time and be well-built and understood in the end. | Need program to be fully understood and act how we expect when we expect, be knowledgeable of all ins and outs of it. |
 | Patients | Those who need daily care in the hospital and who depend greatly on the organization and efficiency of the hospital. | Need product to benefit them and provide them with safety and security by means of use by the employees. | Need to program to be easily understood and reliably understood by the employees, those caring for them. |
