@@ -106,16 +106,6 @@ a similar lack of automated assignment software.
 
 **_2.2 User Personas_**
 
-Describe the primary and secondary user personas (see Chapter 7). A thorough analysis
-might cover the following topics for each persona:
-
-- Technical background and degree of sophistication
-- Key responsibilities
-- Deliverables the user produces and for whom
-- Trends that make the user’s job easier or more difficult
-- The user’s definition of success and how the user is rewarded
-- Problems that interfere with success
-
 The first primary user would be the nurses that use the software to assign the upcoming nurses
 to different patients.  The nurses would have a medical background and should have basic technical
 capabilites to navigate the software.  The responsibilities of the nurses are to create an schedule 
@@ -128,8 +118,6 @@ the software will have to be able HIPAA compliant, it must be hosted by their se
 
 
 **_2.3 User Environment_**
-
-Describe the working environment of the target user. Here are some suggestions.
 
 The environment will have multiple nurses accessing the room assignments with the ability
 to update assignemnts themselves.  Whether there are specific nurses that have priveleges to 
