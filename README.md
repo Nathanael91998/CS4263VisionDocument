@@ -7,16 +7,15 @@ ptg
 Company Name
 ```
 ```
-Vision Document for [Program Name]
+Vision Document for NICU Application
 ```
 ```
-© 20XX [Company Name]
+© 2020 University of Oklahoma
 ```
 ## Revision History
 
 ```
-Date Revision Description Author
-mm/dd/yy 1.0 Initial version Author name
+12/10/20 1.0 Initial version Group 30
 ```
 ## Table of Contents
 
