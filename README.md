@@ -1,7 +1,4 @@
-```
-ptg
-```
-# Vision Document template
+# Vision Document
 
 ```
 OU Capstone Group 30
@@ -40,33 +37,20 @@ Vision Document for NICU Application
 4 .4 Assumptions and Dependencies..............................................  
 4 .5 Cost and Pricing...........................................................  
 
-```
-Page 1 of 8
-```
+5 Nonfunctional Requirements......................................................  
+5 .1 Usability.................................................................  
+5 .2 Reliability.................................................................  
+5 .3 Performance..............................................................  
+5 .4 Supportability..............................................................  
+5 .5 Other Requirements........................................................  
 
-```
-ptg
-```
-5 Product Features...............................................................  
-5 .1 Feature 1................................................................  
-5 .2 Feature 2................................................................  
+6 Documentation Requirements.....................................................  
+6 .1 User Manual..............................................................  
+6 .2 Online Help...............................................................  
+6 .3 Installation	Guides,	Configuration,	“Read	Me”	File	.................................  
+6 .4 Labeling and Packaging.....................................................  
 
-6 Exemplary Use Cases...........................................................  
-
-7 Nonfunctional Requirements......................................................  
-7 .1 Usability.................................................................  
-7 .2 Reliability.................................................................  
-7 .3 Performance..............................................................  
-7 .4 Supportability..............................................................  
-7 .5 Other Requirements........................................................  
-
-8 Documentation Requirements.....................................................  
-8 .1 User Manual..............................................................  
-8 .2 Online Help...............................................................  
-8.3 Installation	Guides,	Configuration,	“Read	Me”	File	.................................  
-8 .4 Labeling and Packaging.....................................................  
-
-9 Glossary.....................................................................
+7 Glossary.....................................................................
 
 ## 1 Introduction
 
@@ -175,14 +159,6 @@ Our product is a desktop application that performs the tedious bookkeeping tasks
 away from qualified nurses. Unlike manual assignment methods, our product creates assignments quickly
 with little effort required from the user. 
 
-```
-Page 5 of 8
-```
-
-```
-ptg
-```
-
 **_4.3 Summary of Capabilities_**
 
 |Features|Benefit|
@@ -205,79 +181,55 @@ This product requires no licenses, server time, or other elements that could add
 so it will likely be free to produce. Should we choose to market it, we will judge how well it
 turned out and price it accordingly.
 
-```
-Page 6 of 8
-```
+## 5 Nonfunctional Requirements
 
-```
-ptg
-```
-## 6 Exemplary Use Cases
-
-[Optional] You may want to describe a few exemplary use cases, perhaps those that are
-architecturally significant or those that will most readily help the reader understand how
-the system is intended to be used.
-
-## 7 Nonfunctional Requirements
-
-**_7.1 Usability_**
+**_5.1 Usability_**
 
 Our clients at the hospital expressed that charge nurses might be averse to using new technologies, so the scheduling application needs to be intuitive and easy to use. It should be demonstrably easier to use the application than to use the current paper scheduling techniques. Users should be able to access the application within the hospital network through a .NET web application on a desktop or on nurses' iPads. This means that the application must be usable as both a desktop and a tablet application.
 
-**_7.2 Reliability_**
+**_5.2 Reliability_**
 
 Since the application will be used for scheduling nurses to care for infants in medical distress, it needs to available and accurate nearly always. Scheduled downtime may be acceptable, but charge nurses would have to revert to using the paper scheduling format in these cases. Due to the critical nature of the application, it must be accurate when assigning infants to appropriately certified nurses. Though the application will have some functionality tied to internet connection, it should still be usable during outages with a little more user input.
 
-**_7.3 Performance_**
+**_5.3 Performance_**
 
 The application will mostly be used hours in advanced, so performance is not a primary concern. Once a schedule is set, the application will be primarily used statically as a display. Performance will mostly be a concern to the extent that it is quicker to use the application than to schedule by hand. This should be easy to achieve with features that optimize matching nurse location and certification.
 
-**_7.4 Supportability_**
+**_5.4 Supportability_**
 
 The OU Health software support department will need to be familiar with this product and be able to provide support when necessary. As such, we will need to give them a thorough overview of the application and provide exhaustive documentation.
 
-**_7.5 Other Requirements_**
+**_5.5 Other Requirements_**
 
-_7.5.1Applicable Standards_
+_5.5.1Applicable Standards_
 
 The application must be HIPAA compliant since it will store patient data.
 
-_7.5.2 System Requirements_
+_5.5.2 System Requirements_
 
 The application must be able to integrate into OU Health's current system infrastructure. From what we have seen, this would be achievable by creating a .NET application. The application must run on Windows (for desktop use) and iOS (for tablet use).
 
-```
-Page 7 of 8
-```
-
-```
-ptg
-```
-## 8 Documentation Requirements
+## 6 Documentation Requirements
 
 This section describes the documentation that must be developed to support successful
 deployment and use.
 
-**_8.1 User Manual_**
+**_6.1 User Manual_**
 
 The user manual is intended to be concise but very thorough, covering all areas of the application in a well organization and clear manner. It will be written simply and clearly in basic english, covering only what is specifically necessary and a part of the application. In other words, as short as possible, while covering every detail - an easy read. We want anyone at the hospital to be able to pick it up and figure it out, which reflects much of the application's intent, itself. An index would be very important, at the front of the book for easy reference and a small glossary could help with defining any medical words unknown. The strategy would be to describe everything, and let those descriptions garner their own worth in the mind of the one using it, as they will know the importance of some functions compared to others. It will be formatted with page numbers, a standard font that is used and native to all platforms, and in black in white. Color will not be necessary, this will make printing much cheaper. All that is required is that the information gets to the reader's brain in a quick and clear way. 
 
-**_8.2 Online Help_**
+**_6.2 Online Help_**
 
 There can be an FAQ style area online, for common concerns, and even more rare issues. We will cover everything that is reasonably necessary in order to at least give a head start, if not a solution, to the problem one may be experiencing. 
 
-**_8.3	 Installation	Guides,	Configuration,	“Read	Me”	File	_**
+**_6.3	 Installation	Guides,	Configuration,	“Read	Me”	File_**
 
 These can be in the form of digital files. An installation guide would likely be a pdf, and the readme either a pdf or a simple text file, for portability and simplicity. Pdf could work fine as well. There would likely be an intro section at the top of the document, as section for addressing the changes, fixes, updates, etc. to the current verson and possibly some links at the bottom for more documentation, as well as contact information should they need assistance. This should be sufficient to give the user good information and get them on their feet. 
 
-**_8.4 Labeling and Packaging_**
+**_6.4 Labeling and Packaging_**
 
 Most likely this will not be necessary for us. At most we will need permission to use an emblems/logos owned by the hospital, in order to officially put a badge on the product saying that it is shared between us and them, and intended for their use and their use only. For now, this would be sufficient. 
 
-## 9 Glossary
+## 7 Glossary
 
-Not applicable right now. Possible applicable later in a very concise format. Time will tell.
-
-```
-Page 8 of 8
-```
+Not applicable right now, but could be later in a very concise format. Time will tell.
