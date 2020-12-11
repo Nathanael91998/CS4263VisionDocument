@@ -290,29 +290,19 @@ deployment and use.
 
 **_8.1 User Manual_**
 
-Describe the intent of the user manual. Discuss desired length, level of detail, need for
-index and glossary, tutorial versus reference manual strategy, and so on. Formatting, elec-
-tronic distribution, and printing constraints should also be identified.
+The user manual is intended to be concise but very thorough, covering all areas of the application in a well organization and clear manner. It will be written simply and clearly in basic english, covering only what is specifically necessary and a part of the application. In other words, as short as possible, while covering every detail - an easy read. We want anyone at the hospital to be able to pick it up and figure it out, which reflects much of the application's intent, itself. An index would be very important, at the front of the book for easy reference and a small glossary could help with defining any medical words unknown. The strategy would be to describe everything, and let those descriptions garner their own worth in the mind of the one using it, as they will know the importance of some functions compared to others. It will be formatted with page numbers, a standard font that is used and native to all platforms, and in black in white. Color will not be necessary, this will make printing much cheaper. All that is required is that the information gets to the reader's brain in a quick and clear way. 
 
 **_8.2 Online Help_**
 
-The nature of these systems is unique to application development since they combine
-aspects of programming and hosting, such as hyperlinks and web services, with aspects of
-technical writing, such as organization, style, and presentation.
+There can be an FAQ style area online, for common concerns, and even more rare issues. We will cover everything that is reasonably necessary in order to at least give a head start, if not a solution, to the problem one may be experiencing. 
 
 **_8.3	 Installation	Guides,	Configuration,	“Read	Me”	File	_**
 
-A document that includes installation instructions and configuration guidelines is typ-
-ically necessary. Also, a “read me” file is often included as a standard component. The
-“read me” file may include a “What’s New with This Release” section and a discussion of
-compatibility issues with earlier releases. Most users also appreciate publication of any
-known defects and workarounds.
+These can be in the form of digital files. An installation guide would likely be a pdf, and the readme either a pdf or a simple text file, for portability and simplicity. Pdf could work fine as well. There would likely be an intro section at the top of the document, as section for addressing the changes, fixes, updates, etc. to the current verson and possibly some links at the bottom for more documentation, as well as contact information should they need assistance. This should be sufficient to give the user good information and get them on their feet. 
 
 **_8.4 Labeling and Packaging_**
 
-Defines the requirements for labeling to be incorporated into the code. Examples include
-copyright and patent notices, corporate logos, standardized icons, and other graphic
-elements.
+Most likely this will not be necessary for us. At most we will need permission to use an emblems/logos owned by the hospital, in order to officially put a badge on the product saying that it is shared between us and them, and intended for their use and their use only. For now, this would be sufficient. 
 
 ## 9 Glossary
 
